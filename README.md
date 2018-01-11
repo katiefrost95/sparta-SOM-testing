@@ -21,7 +21,7 @@ To run the tests you need to have rspec installed in your machine and you can do
 
     'gem install rspec'
 
-    'bundler install'
+    'bundle install'
 
 To get the tests running in your terminal you need to run the command
 
