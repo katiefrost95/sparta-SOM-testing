@@ -7,7 +7,7 @@ class Search
 
   attr_accessor :search_joke
 
-  base_uri "https://icanhazdadjoke.com/"
+  base_uri "https://icanhazdadjoke.com"
 
   def search_joke_data
     @search_joke = JSON.parse(self.class.get("/search").body)
